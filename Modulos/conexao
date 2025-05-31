@@ -1401,7 +1401,7 @@ unzip ddos.zip
 		while true $x != "ok"; do
 			[[ ! -e '/home/sshplus' ]] && exit 0
 			clear
-			echo -e "\E[44;1;37m            SSHPLUS 🇦🇷 @diegovip7               \E[0m\n"
+			echo -e "\E[44;1;37m            SSHPLUS 🇦🇷 @MG VPN               \E[0m\n"
 			echo -e "\e[1;32mSERVICIO: \e[1;33mOPENSSH \e[1;32mPUERTO: \e[1;37m$(grep 'Port' /etc/ssh/sshd_config | cut -d' ' -f2 | grep -v 'no' | xargs)" && sts6="\e[1;32m◉ "
 			[[ "$(netstat -tlpn | grep 'ws-epro' | wc -l)" != '0' ]] && {
 				echo -e "\e[1;32mSERVICIO: \e[1;33mWS-EPRO: \e[1;32mPUERTO: \e[1;37m$(netstat -nplt | grep 'ws-epro' | awk {'print $4'} | cut -d: -f2 | xargs)"
