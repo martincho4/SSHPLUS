@@ -112,7 +112,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
   echo -e "  \033[1;36mEXISTE UNA NUEVA ACTUALIZACION DISPONIBLE!\033[1;33m\n"
 
-  echo -e "  \033[1;33mMAS INFO \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37mEDIT:@diegovip7\n"
+  echo -e "  \033[1;33mMAS INFO \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37mEDIT:@Martincho95\n"
 
   echo -e "  \033[1;32mDETALLES DE ACTUALIZACION:\033[0m\n"
 
